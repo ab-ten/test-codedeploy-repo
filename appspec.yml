@@ -5,10 +5,10 @@ files:
     destination: /tmp
 hooks:
   BeforeInstall:
-    - location: /usr/bin/date
-      timeout: 300
-      runas: root
+#    - location: /usr/bin/date
+#      timeout: 300
+#      runas: root
   ApplicationStop:
-    - location: /usr/bin/date
-      timeout: 300
-      runas: root
+#    - location: /usr/bin/date
+#      timeout: 300
+#      runas: root
